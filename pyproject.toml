@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bjornbrab-finetuneplat_jd377"
+name = "bjornbrab-pipeline_data_skew_schema_check"
 version = "0.1.0"
 description = "从样本里推断模型微调平台工程师·流水线的数据倾斜应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://bjornbrab.github.io"
-Repository = "https://github.com/bjornbrab/finetuneplat_jd377"
-Issues = "https://github.com/bjornbrab/finetuneplat_jd377/issues"
+Repository = "https://github.com/bjornbrab/pipeline_data_skew_schema_check"
+Issues = "https://github.com/bjornbrab/pipeline_data_skew_schema_check/issues"
 
 [project.scripts]
-finetuneplat_jd377 = "finetuneplat_jd377:main"
+pipeline_data_skew_schema_check = "pipeline_data_skew_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["finetuneplat_jd377"]
+py-modules = ["pipeline_data_skew_schema_check"]
